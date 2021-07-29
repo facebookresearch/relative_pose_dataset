@@ -53,6 +53,11 @@ keyframe-to-frame pairs per recording, resulting in around 300 pairs per recordi
 Instant Visual Odometry Initialization for Mobile AR (to do: add proper arxiv reference)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## License
+Attribution-NonCommercial 4.0 International
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## References:
 
 [1] J. Sturm, N. Engelhard, F. Endres, W. Burgard, and D. Cremers. A benchmark for the evaluation of rgb-d slam systems. In 2012 IEEE/RSJ International 
