@@ -33,6 +33,8 @@ keyframe-to-frame pairs per recording, resulting in around 300 pairs per recordi
 0.419396  0.116196 0.900337  // feature 3 cam 1
 
 0.339811 -0.01593 0.940359  // feature 3 cam 2
+
+...
  
  
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -62,6 +64,7 @@ Attribution-NonCommercial 4.0 International
 
 [1] J. Sturm, N. Engelhard, F. Endres, W. Burgard, and D. Cremers. A benchmark for the evaluation of rgb-d slam systems. In 2012 IEEE/RSJ International 
 Conference  on Intelligent Robots and Systems, pp. 573–580. IEEE, 2012.
+
 [2] R.Mur-ArtalandJ.D.Tardos. Orb-slam2: An open-source slam system for monocular, stereo, and rgb-d cameras. IEEE Transactions on Robotics, 33(5):1255–1262, 
 2017.
 
