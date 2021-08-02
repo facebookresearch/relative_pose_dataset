@@ -1,7 +1,7 @@
 # Relative pose problem dataset
 We release a dataset that we have generated from the publicly available TUM benchmark (Sturm et al. [1]) to evaluate relative pose estimators and therefore facilitate the comparison
 against future solutions for the relative pose problem. To this purpose, we use six recordings from TUM benchmark – two from each different Freiburg Kinect
-sensor. We run the publicly avaiable SLAM system ORB-Slam (Mur-Artal et al. [2]) in every recording and we store the keyframe-to-frame bearing correspondences that it produces into text files.
+sensor. We run the publicly available SLAM system ORB-Slam (Mur-Artal et al. [2]) in every recording and we store the keyframe-to-frame bearing correspondences that it produces into text files.
 The corresponding ground-truth 6 DoF pose from keyframe-to-frame is also provided for quantitative evaluation. We also
 generate the same feature correspondences but without noise to facilitate the debugging when first using this dataset. We produce the noiseless correspondences
 by projecting the 3D map points associated to those correspondences into the keyframe and the frame. We subsample the dataset to have an affordable number of
@@ -21,7 +21,7 @@ keyframe-to-frame pairs per recording, resulting in around 300 pairs per recordi
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
  
 ## The format of "dataset_name/feature_ID.txt" and "dataset_name/featureGT_ID.txt" files is as follows:
- 
+```
 0.161141 0.195828 0.967308   // feature 1 cam 1
 
 0.0830744 0.068574 0.994181  // feature 1 cam 2
@@ -35,7 +35,7 @@ keyframe-to-frame pairs per recording, resulting in around 300 pairs per recordi
 0.339811 -0.01593 0.940359  // feature 3 cam 2
 
 ...
- 
+ ```
  
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
